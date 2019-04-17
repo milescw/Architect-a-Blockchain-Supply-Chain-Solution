@@ -3,7 +3,7 @@
 ##### Project write-up - UML 
 includes  following UML diagrams:
 
-   * [Activity diagram](documentation/Coconut%20Supply%20Chain%20Activity%20Diagram.png)
+   * [Activity diagram](documentation/Coconut-SupplyChain-Activity-Diagram.png)
    * [Sequence diagram](add the link)
    * [State diagram](add the link)
    * [Classes diagram](add the link)
