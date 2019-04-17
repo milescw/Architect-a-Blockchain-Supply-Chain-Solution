@@ -4,9 +4,9 @@
 includes  following UML diagrams:
 
    * [Activity diagram](documentation/Coconut-SupplyChain-Activity-Diagram.png)
-   * [Sequence diagram](add the link)
-   * [State diagram](add the link)
-   * [Classes diagram](add the link)
+   * [Sequence diagram](documentation/Coconut-SupplyChain-Sequence-Diagram.png)
+   * [State diagram](documentation/Coconut-SupplyChain-State-Diagram.png)
+   * [Classes diagram](documentation/Coconut-SupplyChain-Class-Diagram.png)
    
 ##### Project write-up - Libraries 
 Following libraries are used in this project:
