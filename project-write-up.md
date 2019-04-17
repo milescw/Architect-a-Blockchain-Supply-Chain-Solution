@@ -3,10 +3,10 @@
 ##### Project write-up - UML 
 includes  following UML diagrams:
 
-   * [Activity diagram](documentation/Coconut%20Supply%20Chain%20Activity%20Diagram.png)
-   * [Sequence diagram](add the link)
-   * [State diagram](add the link)
-   * [Classes diagram](add the link)
+   * [Activity diagram](documentation/Coconut-SupplyChain-Activity-Diagram.png)
+   * [Sequence diagram](documentation/Coconut-SupplyChain-Sequence-Diagram.png)
+   * [State diagram](documentation/Coconut-SupplyChain-State-Diagram.png)
+   * [Classes diagram](documentation/Coconut-SupplyChain-Class-Diagram.png)
    
 ##### Project write-up - Libraries 
 Following libraries are used in this project:
@@ -75,18 +75,18 @@ truffle(develop)>
 
 ## Transaction History on the Rinkeby test network.
 ```
-•	FarmerAdded - 0x1e78488ae2972d41566122bd7d7051c1ee67a6e1312814d298158a5b659ee101
-•	DistributorAdded - 0xd0ffc7ea552f341a7f75bd074c840c652f51614f564dd8fd90c701d915e0d7cb
-•	RetailerAdded - 0x94d22c6b73a254bdbe7987c0328361db244d357986066965b2494136a95afa72
-•	ConsumerAdded - 0x69f4903d8798b17d9cd61ba1dc59b92a2b273c0bb41179b226274359d140dfef
-•	Harvested - 0x51d5e2e658598a7631e2b81de261c64f283486456e34d10cd45ddf466a5197ba
-•	Processed - 0x300614aeda92a52358446742b9d59a75807a25623e06e3f71955746e764fe786
-•	Packed - 0xf0f2345a6cdd2055a31096c7635736656dbf2efd8b3653e286b4cb0b559eac2a
-•	ForSale - 0xe0a790608b165da3a1ed913dba5077f83adaf91fb2210f60f9cdb944f38d54a1
-•	Sold - 0x7c89bf2f703c6c46631c23b8c2f1447402891ece59848a3baa56738e37a9c7f9
-•	Shipped - 0xc7fc0715e815170c1053634e7f8e4e4e0803ff9d29d9a68cc4459957696fdf35
+• FarmerAdded - 0x1e78488ae2972d41566122bd7d7051c1ee67a6e1312814d298158a5b659ee101
+• DistributorAdded - 0xd0ffc7ea552f341a7f75bd074c840c652f51614f564dd8fd90c701d915e0d7cb
+• RetailerAdded - 0x94d22c6b73a254bdbe7987c0328361db244d357986066965b2494136a95afa72
+• ConsumerAdded - 0x69f4903d8798b17d9cd61ba1dc59b92a2b273c0bb41179b226274359d140dfef
+• Harvested - 0x51d5e2e658598a7631e2b81de261c64f283486456e34d10cd45ddf466a5197ba
+• Processed - 0x300614aeda92a52358446742b9d59a75807a25623e06e3f71955746e764fe786
+• Packed - 0xf0f2345a6cdd2055a31096c7635736656dbf2efd8b3653e286b4cb0b559eac2a
+• ForSale - 0xe0a790608b165da3a1ed913dba5077f83adaf91fb2210f60f9cdb944f38d54a1
+• Sold - 0x7c89bf2f703c6c46631c23b8c2f1447402891ece59848a3baa56738e37a9c7f9
+• Shipped - 0xc7fc0715e815170c1053634e7f8e4e4e0803ff9d29d9a68cc4459957696fdf35
 
-•	Purchased - 0xf7e3792154a92fa910b8beb2fa110e77e0f21ca01e247e4346a43039739f1fd0
+• Purchased - 0xf7e3792154a92fa910b8beb2fa110e77e0f21ca01e247e4346a43039739f1fd0
 
 ```
 
