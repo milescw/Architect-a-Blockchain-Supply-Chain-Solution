@@ -70,8 +70,8 @@ Saving artifacts...
 truffle(develop)>
 ```
 ## Deployed Contract on the Ethereum RINKEBY test network.
-*   Contract ID : 0xd8006dca5413fad4edf22593a7f069ea1f455be9
-*   View Contract on Rinkeby test network: https://rinkeby.etherscan.io/address/0xd8006dca5413fad4edf22593a7f069ea1f455be9#code
+*   Contract ID : Place the contract ID here
+*   View Contract on Rinkeby test network: Place the Rinkeby contract url here
 
 ## Transaction History on the Rinkeby test network.
 ```
