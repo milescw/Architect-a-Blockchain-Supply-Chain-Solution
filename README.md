@@ -88,15 +88,7 @@ npm run dev
 ```
 Your terminal should look similar below:
 
-<<<<<<< HEAD
 ![truffle test](images/npm-run-dev.PNG)
-||||||| merged common ancestors
-ADD IMAGE NPM RUN DEV
-![truffle test](images/npm-run-dev.png)
-=======
-ADD IMAGE NPM RUN DEV
-![truffle test](images/npm-run-dev.PNG)
->>>>>>> 1e876ccd88d9eb16c24c34cddf7ba20c2a7483d2
 
 ## Testing DApp with User Interface.
 Now test the DApp with UI:
@@ -114,8 +106,7 @@ Consumer: accounts[4]  0x335ca1a755db8bb13ddd6a6bb285eb91b3ec7b63
 ```
 #### Select Contract Owner Account in MetaMask:
 
-ADD IMAGE SELECT CONTRACT OWNER
-![truffle test](images/Select-Account-Metamask.png)
+![truffle test](images/Select-Account-Metamask.PNG)
 
 #### Add Farmer :
 Add all actors into Contract:
