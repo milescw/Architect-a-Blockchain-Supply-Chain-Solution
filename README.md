@@ -19,7 +19,7 @@ Please make sure you've already installed Tools and used the versions listed
 *   Ganache CLI v6.4.3 (ganache-core: 2.5.5)
 *   Truffle v4.1.15 (core: 4.1.15)
 *   Solidity - ^0.4.24 (solc-js)
-*   MetaMask extension for browser ( 6.2.2)
+*   MetaMask version extension for browser (6.4.1)
 *   web3  (1.0.0-beta.54)
 
 ## Installing
