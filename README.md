@@ -89,7 +89,7 @@ npm run dev
 Your terminal should look similar below:
 
 ADD IMAGE NPM RUN DEV
-![truffle test](images/npm-run-dev.png)
+![truffle test](images/npm-run-dev.PNG)
 
 ## Testing DApp with User Interface.
 Now test the DApp with UI:
