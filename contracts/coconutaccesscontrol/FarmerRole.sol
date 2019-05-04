@@ -26,7 +26,7 @@ contract FarmerRole is Ownable {
 
   // Define a modifier that checks to see if msg.sender has the appropriate role
   modifier onlyFarmer() {
-    require(isFarmer(msg.sender), "Caller is not a farmer.);
+    require(isFarmer(msg.sender), "Caller is not a farmer.");
     _;
   }
 

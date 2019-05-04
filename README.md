@@ -17,7 +17,7 @@ Please make sure you've already installed Tools and used the versions listed
 *   node               (v8.12.0)
 *   npm                 (6.4.1)
 *   Ganache CLI v6.4.3 (ganache-core: 2.5.5)
-*   Truffle v5.0.0 (core: 5.0.0)
+*   Truffle v4.1.15 (core: 4.1.15)
 *   Solidity - ^0.4.24 (solc-js)
 *   MetaMask extension for browser ( 6.2.2)
 *   web3  (1.0.0-beta.46)
@@ -39,39 +39,29 @@ Change to folder ```Architect-a-Blockchain-Supply-Chain-Solution```  and install
 cd Architect-a-Blockchain-Supply-Chain-Solution
 npm install
 ```
-#### Open a terminal window and Launch Ganache:
+#### Open a terminal window and Launch Ganache-CLI:
 
 ```
-ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
+ganache-cli -m "volume sense walk more oak rocket success treat rug boat pool soup"
 ```
 
-Your terminal should look something like this:
+Your terminal should look similar below:
 
-ADD IMAGE
+ADD IMAGE GANACHE-CLI
 ![truffle test](images/ganache-cli.png)
 
-#### Open a separate terminal window and  compile smart contracts:
+#### Open a separate terminal window and compile smart contracts:
 
 ```
 truffle compile
 ```
 
-Your terminal should look something like this:
+Your terminal should look similar below:
 
-ADD IMAGE
+ADD IMAGE COMPILE
 ![truffle test](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
-
-#### Migrate smart contracts to the locally running blockchain, ganache-cli:
-
-```
-truffle migrate
-```
-
-Your terminal should look something like this:
-
-![truffle test](images/truffle_migrate.png)
 
 #### Test smart contracts:
 
@@ -81,32 +71,47 @@ truffle test
 
 All 11 tests should pass.
 
+ADD IMAGE TEST
 ![truffle test](images/truffle_test.png)
+
+#### Migrate smart contracts to the locally running blockchain, ganache-cli:
+
+```
+truffle migrate
+```
+
+Your terminal should look similar below:
+
+ADD IMAGE MIGRATE
+![truffle test](images/truffle_migrate.png)
 
 #### In a separate terminal window, launch the DApp:
 
 ```
 npm run dev
 ```
-Your terminal should look something like this:
+Your terminal should look similar below:
 
+ADD IMAGE NPM RUN DEV
 ![truffle test](images/npm-run-dev.png)
 
 ## Testing DApp with User Interface.
-Now we can test our DApp with UI :
+Now test the DApp with UI:
 Open [http://localhost:3000](http://localhost:3000) to use DApp User Interface.
 
-#### Accounts into MetaMask importieren :
-used folowing ganache-cli accounts should be imported into MetaMask:
+#### Import Accounts into MetaMask:
+the folowing ganache-cli accounts should be imported into MetaMask:
 ```
-Contract Owner: accounts[0]  0x27d8d15cbc94527cadf5ec14b69519ae23288b95
-Farmer: accounts[1]  0x018c2dabef4904ecbd7118350a0c54dbeae3549a
-Distributor: accounts[2]  0xce5144391b4ab80668965f2cc4f2cc102380ef0a
-Retailer: accounts[3]  0x460c31107dd048e34971e57da2f99f659add4f02
-Consumer: accounts[4]  0xd37b7b8c62be2fdde8daa9816483aebdbd356088
+ganache-cli accounts used here...
+Contract Owner: accounts[0]  0xfcf83e33d565a45411c7824d65084b435d5341b8
+Farmer: accounts[1]  0xdc94ac22ec9eeddcf0fa46c0a2459b175864189c
+Distributor: accounts[2]  0xbc0a52baff25eebc2c2a3d6ccb05db5e41f7da6e
+Retailer: accounts[3]  0x59f48202795499a875c4d8eec510538d5365f1ce
+Consumer: accounts[4]  0x335ca1a755db8bb13ddd6a6bb285eb91b3ec7b63
 ```
-#### Select Contract Owner Account on MetaMask :
+#### Select Contract Owner Account in MetaMask:
 
+ADD IMAGE SELECT CONTRACT OWNER
 ![truffle test](images/Select-Account-Metamask.png)
 
 #### Add Farmer :
@@ -116,13 +121,15 @@ Add all actors into Contract:
 *   Add Retailer
 *   Add Consumer
 
+ADD IMAGE ADD FARMER
 ![truffle test](images/Add-Farmer.png)
 
-Transaction History should look something like this:
+Transaction History should look similar below:
 
+ADD IMAGE 
 ![truffle test](images/Add-Actors-History.png)
 
-#### Select Farmer Account on MetaMask :
+#### Select Farmer Account on MetaMask:
 
 ![truffle test](images/Select-Farmer-Account.png)
 
@@ -131,21 +138,22 @@ Transaction History should look something like this:
 *   Process
 *   Pack
 *   For Sale
-#### Select Distributor Account on MetaMask :
+#### Select Distributor Account on MetaMask:
 Activate Distributor Actions in following order:
 *   Buy
-#### Select Farmer Account on MetaMask :
+#### Select Farmer Account on MetaMask:
 Activate Farmer Actions in following order:
 *   Ship
-#### Select Retailer Account on MetaMask :
+#### Select Retailer Account on MetaMask:
 Activate Retailer Actions in following order:
 *   Receive
-#### Select Consumer Account on MetaMask :
+#### Select Consumer Account on MetaMask:
 Activate Consumer Actions in following order:
 *   Purchase
 
 Now Transaction History should look something like this:
 
+ADD IMAGE ALL TRANSACTION HISTORY
 ![truffle test](images/All-Transaction-History.png)
 
 ## Built With

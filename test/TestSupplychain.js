@@ -22,18 +22,19 @@ contract('SupplyChain', function(accounts) {
     const emptyAddress = '0x00000000000000000000000000000000000000'
     var supplyChain
 
-    ///Available Accounts
-    ///==================
-    ///(0) 0x27d8d15cbc94527cadf5ec14b69519ae23288b95
-    ///(1) 0x018c2dabef4904ecbd7118350a0c54dbeae3549a
-    ///(2) 0xce5144391b4ab80668965f2cc4f2cc102380ef0a
-    ///(3) 0x460c31107dd048e34971e57da2f99f659add4f02
-    ///(4) 0xd37b7b8c62be2fdde8daa9816483aebdbd356088
-    ///(5) 0x27f184bdc0e7a931b507ddd689d76dba10514bcb
-    ///(6) 0xfe0df793060c49edca5ac9c104dd8e3375349978
-    ///(7) 0xbd58a85c96cc6727859d853086fe8560bc137632
-    ///(8) 0xe07b5ee5f738b2f87f88b99aac9c64ff1e0c7917
-    ///(9) 0xbd3ff2e3aded055244d66544c9c059fa0851da44
+    // Available Accounts
+    // ==================
+    // (0) 0xfcf83e33d565a45411c7824d65084b435d5341b8
+    // (1) 0xdc94ac22ec9eeddcf0fa46c0a2459b175864189c
+    // (2) 0xbc0a52baff25eebc2c2a3d6ccb05db5e41f7da6e
+    // (3) 0x59f48202795499a875c4d8eec510538d5365f1ce
+    // (4) 0x335ca1a755db8bb13ddd6a6bb285eb91b3ec7b63
+    // (5) 0xdaf8a1d66a57f41c1ad2388ce2695e19fa7d4293
+    // (6) 0x45e35a3a88a7a7099e3e2bb6193f616f183b3fc7
+    // (7) 0xd5bdbe82a17cb13b11ef8e467de27d1973bf9735
+    // (8) 0x7271935c2a84d80d1ac7610603dc7779e967f290
+    // (9) 0xcfb791e30ec831749ffc7b3cce7d913fd0d5592e
+
 
     console.log("ganache-cli accounts used here...")
     console.log("Contract Owner: accounts[0] ", accounts[0])
@@ -384,4 +385,3 @@ contract('SupplyChain', function(accounts) {
     })
 
 });
-

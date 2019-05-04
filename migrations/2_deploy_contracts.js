@@ -1,4 +1,4 @@
-// migrating the appropriate contracts
+// Migrating the appropriate contracts
 var FarmerRole = artifacts.require("./FarmerRole.sol");
 var DistributorRole = artifacts.require("./DistributorRole.sol");
 var RetailerRole = artifacts.require("./RetailerRole.sol");
