@@ -47,7 +47,6 @@ ganache-cli -m "volume sense walk more oak rocket success treat rug boat pool so
 
 Your terminal should look similar below:
 
-ADD IMAGE GANACHE-CLI
 ![truffle test](images/ganache-cli.png)
 
 #### Open a separate terminal window and compile smart contracts:
@@ -58,7 +57,6 @@ truffle compile
 
 Your terminal should look similar below:
 
-ADD IMAGE COMPILE
 ![truffle test](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
@@ -71,7 +69,6 @@ truffle test
 
 All 11 tests should pass.
 
-ADD IMAGE TEST
 ![truffle test](images/truffle_test.png)
 
 #### Migrate smart contracts to the locally running blockchain, ganache-cli:
@@ -82,7 +79,6 @@ truffle migrate
 
 Your terminal should look similar below:
 
-ADD IMAGE MIGRATE
 ![truffle test](images/truffle_migrate.png)
 
 #### In a separate terminal window, launch the DApp:
