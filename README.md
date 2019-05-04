@@ -20,7 +20,7 @@ Please make sure you've already installed Tools and used the versions listed
 *   Truffle v4.1.15 (core: 4.1.15)
 *   Solidity - ^0.4.24 (solc-js)
 *   MetaMask extension for browser ( 6.2.2)
-*   web3  (1.0.0-beta.46)
+*   web3  (1.0.0-beta.54)
 
 ## Installing
 A step by step series of examples that tell you have to get a development env running
@@ -106,7 +106,7 @@ Consumer: accounts[4]  0x335ca1a755db8bb13ddd6a6bb285eb91b3ec7b63
 ```
 #### Select Contract Owner Account in MetaMask:
 
-![truffle test](images/Select-Account-Metamask.PNG)
+![truffle test](images/select-metamask-account.PNG)
 
 #### Add Farmer :
 Add all actors into Contract:
