@@ -116,16 +116,16 @@ Add all actors into Contract:
 *   Add Consumer
 
 ADD IMAGE ADD FARMER
-![truffle test](images/Add-Farmer.png)
+![truffle test](images/add-farmer.PNG)
 
 Transaction History should look similar below:
 
 ADD IMAGE 
-![truffle test](images/Add-Actors-History.png)
+![truffle test](images/add-actors-history.PNG)
 
 #### Select Farmer Account on MetaMask:
 
-![truffle test](images/Select-Farmer-Account.png)
+![truffle test](images/select-farmer-account.PNG)
 
 #### Activate Farmer Actions in following order:
 *   Harvest
@@ -145,10 +145,10 @@ Activate Retailer Actions in following order:
 Activate Consumer Actions in following order:
 *   Purchase
 
-Now Transaction History should look something like this:
+Now Transaction History should look like below:
 
 ADD IMAGE ALL TRANSACTION HISTORY
-![truffle test](images/All-Transaction-History.png)
+![truffle test](images/all-transaction-history.PNG)
 
 ## Built With
 

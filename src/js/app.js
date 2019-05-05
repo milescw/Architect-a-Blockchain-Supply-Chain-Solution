@@ -179,6 +179,7 @@ App = {
 
     registerFarmer: function (event) {
 
+        App.readForm();
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
         App.ownerID = $("#ownerID").val();
@@ -197,6 +198,7 @@ App = {
 
     registerDistributor: function (event) {
 
+        App.readForm();
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
         App.ownerID = $("#ownerID").val();
@@ -215,6 +217,7 @@ App = {
 
     registerRetailer: function (event) {
 
+        App.readForm();
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
         App.ownerID = $("#ownerID").val();
@@ -233,6 +236,7 @@ App = {
 
     registerConsumer: function (event) {
 
+        App.readForm();
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
         App.ownerID = $("#ownerID").val();
