@@ -14,8 +14,8 @@ This program requires **node.js**  and **npm** program environment
 
 ## Prerequisites
 Please make sure you've already installed Tools and used the versions listed
-*   node               (v8.12.0)
-*   npm                 (6.4.1)
+*   node    (v8.12.0)
+*   npm     (6.4.1)
 *   Ganache CLI v6.4.3 (ganache-core: 2.5.5)
 *   Truffle v4.1.15 (core: 4.1.15)
 *   Solidity - ^0.4.24 (solc-js)
