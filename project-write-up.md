@@ -8,6 +8,16 @@ includes  following UML diagrams:
    * [State diagram](documentation/Coconut-SupplyChain-State-Diagram.png)
    * [Classes diagram](documentation/Coconut-SupplyChain-Class-Diagram.png)
    
+## Prerequisites
+Please make sure you've already installed Tools and used the versions listed
+*   node               (v8.12.0)
+*   npm                 (6.4.1)
+*   Ganache CLI v6.4.3 (ganache-core: 2.5.5)
+*   Truffle v4.1.15 (core: 4.1.15)
+*   Solidity - ^0.4.24 (solc-js)
+*   MetaMask version extension for browser (6.4.1)
+*   web3  (1.0.0-beta.54)
+
 ##### Project write-up - Libraries 
 Following libraries are used in this project:
 *   Roles.sol : alows managing addresses assigned to a Role. 
