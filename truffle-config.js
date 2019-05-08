@@ -14,12 +14,11 @@ module.exports = {
     rinkeby: {
       provider: function () {
         return new HDWalletProvider(
-          "<your metamask seed",
-          "get from infura");
+          "message remain word bubble frozen path leader job scare lend speed anxiety",
+          "https://rinkeby.infura.io/v3/d39cafa46b464ca594094b27e4ab2d81");
       },
       network_id: "4",
-      gas: 4500000,
-      gasPrice: 10000000000,
+      gasPrice: 10000000000
     }
   },
   compilers: {
